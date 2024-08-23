@@ -8,6 +8,7 @@ import {
   CalendarIcon,
   ChartPieIcon,
   DocumentDuplicateIcon,
+  BanknotesIcon,
   FolderIcon,
   HomeIcon,
   UsersIcon,
@@ -26,6 +27,8 @@ const navigation = [
     current: false,
   },
   { name: "Contacts", href: "Contact", icon: UsersIcon, current: false },
+  { name: "Purchase Order", href: "Purchaseorder", icon: BanknotesIcon, current: false },
+  
 ];
 
 function classNames(...classes) {
@@ -39,7 +42,7 @@ export default function Example() {
   };
   return (
     <div className="flex grow  w-52 h-screen flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-slate-200 px-6">
-      <div className="flex h-16 w-1/5 shrink-0 items-center">
+      <div className="flex h-16 w-2/5 shrink-0 items-center">
         <img
           alt="Your Company"
           src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
