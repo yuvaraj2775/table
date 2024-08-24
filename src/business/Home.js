@@ -35,7 +35,7 @@ const Home = () => {
             />
           </div>
           <div className="grid grid-cols-2 mt-3">
-            <label htmlFor="">Customer Po Number</label>
+            <label htmlFor="">Customer PO Number</label>
             <input
               type="text"
               className="border-2 border-slate-200 h-10 w-60 rounded-lg"
@@ -68,11 +68,11 @@ const Home = () => {
             />
           </div>
           <div className="grid grid-cols-2 mt-3">
-            <label htmlFor="">Order Date</label>
+            <label htmlFor="" >Order Date</label>
             <input
               type="date"
               name=""
-              className="border-2 border-slate-200 h-10 w-60 rounded-lg"
+              className="border-2 px-2 border-slate-200 h-10 w-60 rounded-lg"
               id=""
             />
           </div>
@@ -85,7 +85,7 @@ const Home = () => {
             ></select>
           </div>
           <div className="grid grid-cols-2 mt-3">
-            <label htmlFor="">Type Of Work</label>
+            <label htmlFor="">Type of Work</label>
             <select
               name=""
               id=""
@@ -93,7 +93,7 @@ const Home = () => {
             ></select>
           </div>
           <div className="mt-3 ml-32">
-            <button class="block w-3/5 rounded-3xl border border-transparent py-2 bg-green-600 text-white font-medium shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <button class="block p-3 rounded border border-transparent py-2 bg-green-600 text-white font-medium shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
               Add Order
             </button>
           </div>

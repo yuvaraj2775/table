@@ -17,34 +17,34 @@ const Orderpg = () => {
   }
   const tablev = [
     {
-      name: "Lindsay Waiton",
+      name: "1",
       mail: "lindsaywalton@example.com",
-      qty: "Member",
-      time: "Member",
-      unit: "Member",
-      Discounttype: "Member",
-      discount: "Member",
-      unitprice: "Member",
-      taxvaluu: "Member",
-      taxtype1: "Member",
-      amttype: "Member",
-      taxtype2: "Member",
-      amttype2: "Member",
+      qty: "2",
+      time: "12 Pm",
+      unit: "1",
+      Discounttype: "card",
+      discount: "50%",
+      unitprice: "40 Rs",
+      taxvaluu: "10%",
+      taxtype1: "Null",
+      amttype: "Cash",
+      taxtype2: "Null",
+      amttype2: "Null",
     },
     {
-      name: "Lindsay Waiton",
+      name: "2",
       mail: "lindsaywalton@example.com",
-      qty: "Member",
-      time: "Member",
-      unit: "Member",
-      Discounttype: "Member",
-      discount: "Member",
-      unitprice: "Member",
-      taxvaluu: "Member",
-      taxtype1: "Member",
-      amttype: "Member",
-      taxtype2: "Member",
-      amttype2: "Member",
+      qty: "5",
+      time: " 11 Am",
+      unit: "1",
+      Discounttype: "card only",
+      discount: "20%",
+      unitprice: "100 Rs",
+      taxvaluu: "10%",
+      taxtype1: "Null",
+      amttype: "Cash",
+      taxtype2: "Null",
+      amttype2: "Null",
     },
   ];
   return (
@@ -52,47 +52,46 @@ const Orderpg = () => {
     
       
 
-      <div className="border-2 border-slate-200 rounded-xl mt-5  overflow-x-scroll ">
-        <div cla>
-        <table className="   ">
+      <div className="border-2 border-slate-200 overflow-x-auto rounded-xl mt-5  ">
+        <table className="  overflow-x-scroll w-[1300] ">
           <tr className="">
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 opacity-90 p-2"></th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 w-full  opacity-90 border-l-2  border-white">
+            <th className="h-10 bg-slate-100 font-semibold text-sm pl-4 pr-3 opacity-90 p-2"> Serial No</th>
+            <th className="h-10 bg-slate-100 font-semibold text-sm pl-4 pr-3 w-full  opacity-90 border-l-2  border-white">
               Item Name/Description
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 opacity-90 border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold text-sm w-full pl-4 pr-3 opacity-90 border-l-2   border-white">
               Qty
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3  opacity-90 border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold text-sm pl-4 pr-3  opacity-90 border-l-2   border-white">
               Time[Hrs]
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 opacity-90 border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold text-sm pl-4 pr-3 opacity-90 border-l-2   border-white">
               Unit
             </th>
-            <th className="h-10 bg-slate-500 font-semibold  text-sm pl-4 pr-3 opacity-90  border-l-2  border-white">
+            <th className="h-10 bg-slate-100 font-semibold   text-sm pl-4 pr-3 opacity-90  border-l-2  border-white">
               Discount Type
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
               Discount
             </th>
-            <th className="h-10 bg-slate-500 font-semibold  text-sm pl-4 pr-3  opacity-90  border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full  text-sm pl-4 pr-3  opacity-90  border-l-2   border-white">
               Unit Price
             </th>
-            <th className="h-10 bg-slate-500 font-semibold  text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
               Tax Value
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
               Tax Type1
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full text-sm pl-4 pr-3 opacity-90  border-l-2   border-white">
               {" "}
               Amt Type{" "}
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3  opacity-90  border-l-2    border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full text-sm pl-4 pr-3  opacity-90  border-l-2    border-white">
               {" "}
               Tax Type 2{" "}
             </th>
-            <th className="h-10 bg-slate-500 font-semibold text-sm pl-4 pr-3 w-32  opacity-90 border-l-2   border-white">
+            <th className="h-10 bg-slate-100 font-semibold w-full text-sm pl-4 pr-3  opacity-90 border-l-2   border-white">
               {" "}
               Amt Type 2{" "}
             </th>
@@ -105,9 +104,9 @@ const Orderpg = () => {
               <td className="text-slate-400 pl-4 pr-3 ">{e.qty}</td>
               <td className="text-slate-400 pl-4 pr-3 ">{e.time}</td>
               <td className="text-slate-400 pl-4 pr-3 ">{e.unit}</td>
-              <td className="text-slate-400 pl-4 pr-3 ">{e.Discounttype}</td>
-              <td className="text-slate-400 pl-4 pr-3 ">{e.discount}</td>
-              <td className="text-slate-400 pl-4 pr-3 ">{e.unitprice}</td>
+              <td className="text-slate-400  w-40 ">{e.Discounttype}</td>
+              <td className="text-slate-400 pl-4 pr-3  ">{e.discount}</td>
+              <td className="text-slate-400  ">{e.unitprice}</td>
               <td className="text-slate-400 pl-4 pr-3 ">{e.taxvaluu}</td>
               <td className="text-slate-400 pl-4 pr-3 ">{e.taxtype1}</td>
               <td className="text-slate-400 pl-4 pr-3 ">{e.amttype}</td>
@@ -116,27 +115,27 @@ const Orderpg = () => {
             </tr>
           ))}
         </table>
-        </div>
+        
        
         <div className="flex justify-around mt-5">
-          <div className="mb-2">
-            <div className="flex p-3 border-2 text-slate-600 hover:bg-green-300 cursor-pointer border-slate-200 bg-slate-100 rounded-xl">
-              <PlusIcon className="w-5 mt-0.5 h-5 " />
+          <div className=" flex">
+            <div className="flex w-24 border-2 h-16 mt-3  pt-4 text-slate-600 border-green-300 hover:bg-green-300 cursor-pointer  bg-slate-100 rounded-xl">
+              <PlusIcon className="w-5 mt-0.5  h-5 " />
               <p>Add unit</p>
             </div>
-            <div className="flex p-3 border-2 text-slate-600 hover:bg-gray-300 cursor-pointer border-slate-200 bg-slate-100 rounded-xl mt-2">
+            <div className="flex  border-2 ml-5 pt-4 h-16 w-24 text-slate-600 hover:bg-gray-300 cursor-pointer border-green-300 bg-slate-100 rounded-xl mt-3">
               <PlusIcon className="w-5 h-5 " />
               <p>Add Cost</p>
             </div>
           </div>
           <div className="flex items-center  ">
-            <div class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+            <div class="text-white flex bg-green-600 justify-center items-center  w-28 h-14  cursor-pointer hover:border-green-800  rounded">
             
-              <PlusCircleIcon className="w-5 mx-auto h-5" />
-              <p>Add Items</p>
+              <PlusCircleIcon className="w-5  h-5" />
+              <p className="">Add Items</p>
             </div>
-            <div  class="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-              <XMarkIcon className="w-5 mx-auto h-5" />
+            <div  class="text-white flex justify-center items-center bg-red-800 w-28 h-14  cursor-pointer hover:border-red-800  rounded ml-3 ">
+              <XMarkIcon className="w-5  h-5" />
               <p>Remove</p>
             </div>
           </div>
@@ -186,28 +185,28 @@ const Orderpg = () => {
         </div>
       </div>
       <div className="flex justify-between mt-5">
-        <div className="rounded-md   border  py-2 px-4 flex  items-center justify-center bg-violet-500 text-white font-medium shadow-sm hover:bg-green-300   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-          <PlusCircleIcon className="w-5 h-5" />
-          <p>New Order</p>
+        <div className="text-white bg-gradient-to-r flex justify-center items-center from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center h-14  ">
+          <PlusCircleIcon className="w-5  h-5" />
+          <p className="ml-1">New Order</p>
         </div>
-        <div className="rounded-md  h-16 w-28 border  py-2 px-4 flex  items-center justify-center bg-violet-500 text-white font-medium shadow-sm hover:bg-green-300   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-          <BookmarkIcon className="w-5 h-5" />
+        <div className="text-white flex justify-center items-center w-28 bg-orange-300 rounded ">
+          <BookmarkIcon className="w-5  h-5" />
           <p>Save</p>
         </div>
-        <div className="rounded-md  h-16 w-28 border  py-2 px-4 flex  items-center justify-center bg-violet-500 text-white font-medium shadow-sm hover:bg-green-300   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-          <PencilSquareIcon className="w-5 h-5" />
+        <div className="text-white bg-gradient-to-r flex justify-center items-center w-28 bg-blue-600 rounded ">
+          <PencilSquareIcon className="w-5  h-5" />
           <p>Edit</p>
         </div>
-        <div className="  rounded-md  h-16 w-28 border  py-2 px-4 flex  items-center justify-center bg-violet-500 text-white font-medium shadow-sm hover:bg-green-300   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-          <TrashIcon className="h-5 w-5" />
+        <div className="text-white bg-gradient-to-r flex justify-center items-center w-28 bg-red-800 rounded ">
+          <TrashIcon className="h-5  w-5" />
           <p>Delete</p>
         </div>
-        <div className="rounded-md  h-16 w-28 border  py-2 px-4 flex  items-center justify-center bg-violet-500 text-white font-medium shadow-sm hover:bg-green-300   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-          <PrinterIcon className="w-5 h-5" />
+        <div className="text-white flex justify-center items-center bg-slate-300 w-28 rounded">
+          <PrinterIcon className="w-5  h-5" />
           <p>Print</p>
         </div>
-        <div className="w-40 h-10 border-2 rounded-2xl bg-green-300 text-white cursor-pointer hover:bg-violet-600 mt-3 text-center">
-          <button className="mt-1"> Convert Order</button>
+        <div className="w-40 h-14 flex justify-center items-center border-2 rounded-lg bg-green-600 text-white cursor-pointer hover:bg-violet-600  text-center">
+          <button className=""> Convert Order</button>
         </div>
       </div>
     </div>

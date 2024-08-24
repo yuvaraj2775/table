@@ -12,9 +12,12 @@ import {
   FolderIcon,
   HomeIcon,
   UsersIcon,
+  UserCircleIcon
 } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { IoIosContacts } from "react-icons/io";
+
+
 
 const navigation = [
   { name: "Dashboard", href: "Home", icon: HomeIcon, current: false },
@@ -28,6 +31,7 @@ const navigation = [
   },
   { name: "Contacts", href: "Contact", icon: UsersIcon, current: false },
   { name: "Purchase Order", href: "Purchaseorder", icon: BanknotesIcon, current: false },
+  { name: "Profile", href: "Profilepg", icon: UserCircleIcon, current: false },
   
 ];
 
